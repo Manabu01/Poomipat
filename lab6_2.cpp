@@ -21,6 +21,7 @@ double rad2deg(double rad){
 double pythagoras(double xcomp, double ycomp){
     return sqrt(xcomp*xcomp + ycomp*ycomp);
 }
+
 void showResult(double result_vec_length, double result_vec_direction){
     cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
     cout << "Length of the resultant vector = " << result_vec_length << endl;
